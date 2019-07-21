@@ -1,0 +1,24 @@
+{
+    "item": [
+        {
+            "itemname" : "라이젠3900x",
+            "target" : "750000"
+        },
+        {
+            "itemname" : "ASUS PRIME X470-PRO",
+            "target" : "210000"
+        },
+        {
+            "itemname" : "삼성전자 970 EVO Plus M.2 2280 (500GB)",
+            "target" : "99000"
+        },
+        {
+            "itemname" : "조텍 GAMING AMP EXTREME CORE 지포스 RTX 2080 Ti D6 11GB",
+            "target" : "1600000"
+        },
+        {
+            "itemname" : "RYZEN 3700X",
+            "target" : "370000"
+        }
+    ]
+}
