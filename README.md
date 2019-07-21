@@ -15,11 +15,10 @@
 
 ### 사용방법
 
-- 최상위 경로에 있는 .env을 여신다음 네이버에서 발급받은 api 키를 (CLIENT_ID , CLUENT_SECRET) 입력해줍니다.
+최상위 경로에 있는 .env을 여신다음 네이버에서 발급받은 api 키를 (CLIENT_ID , CLUENT_SECRET) 입력해줍니다.
+사용하시는 웹훅api (네이트온 / 잔디URL)의 수신URL을 NATEONURL , JANDIURL에 입력해줍니다.
 
-- 사용하시는 웹훅api (네이트온 / 잔디URL)의 수신URL을 NATEONURL , JANDIURL에 입력해줍니다.
-
-- ```javascript
+```
   # 정상적으로 입력하셨을시 다음과 같은 내용으로 입력됩니다.
   CLIENT_ID=N7kv~~~~
   CLIENT_SECRET=3u3X~~~~
@@ -29,13 +28,13 @@
   NATEONURL=https://teamroom.nate.com/api/webhook/8a13~~~~
   JANDIURL=https://wh.jandi.com/connect-api/webhook/1738~~~~
   
-  ```
+```
 
-- ```javascript
+```
   #node가 설치된 상태를 전제로 합니다.
   > npm install
   ### 설치완료
   > npm start
-  ```
+ ```
 
-- 끝.
+끝.
