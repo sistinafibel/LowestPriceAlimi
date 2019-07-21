@@ -1,4 +1,7 @@
+
+
 # 최저가 알리미
+
 네이버 최저가 기준으로 컴퓨터 부품(타 상품 또한 가능)을 사용자가 지정한 시간마다 가져와서<br>
 사용자가 입력한 가격까지 내려올경우 알림해주는 서비스입니다.<br>
 특정 상품의 스팟을 걱정할 필요 없이 일에 집중하다 알림이 뜨면 빠르게 구매하시면 됩니다.
@@ -45,4 +48,7 @@
   > npm start
  ```
 
-끝.
+### 후기
+<img src="https://user-images.githubusercontent.com/36251104/61592932-4779d180-ac14-11e9-95c7-a62f0d0fcc1e.jpg" width="300px"/>
+<img src="https://user-images.githubusercontent.com/36251104/61592911-08e41700-ac14-11e9-8f76-b58c1da3abde.jpg" width="300px"/>
+잔디도 잘 씀ㅎ
