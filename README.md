@@ -15,7 +15,7 @@
 
 ### 사용방법
 
-최상위 경로에 있는 .env을 여신다음 네이버에서 발급받은 api 키를 (CLIENT_ID , CLUENT_SECRET) 입력해줍니다.
+최상위 경로에 있는 .env을 여신다음 네이버에서 발급받은 api 키를 (CLIENT_ID , CLUENT_SECRET) 입력해줍니다.<br>
 사용하시는 웹훅api (네이트온 / 잔디URL)의 수신URL을 NATEONURL , JANDIURL에 입력해줍니다.
 
 ```
