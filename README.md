@@ -20,6 +20,7 @@
 
 ```
   # 정상적으로 입력하셨을시 다음과 같은 내용으로 입력됩니다.
+  #.env
   CLIENT_ID=N7kv~~~~
   CLIENT_SECRET=3u3X~~~~
   
@@ -28,6 +29,13 @@
   NATEONURL=https://teamroom.nate.com/api/webhook/8a13~~~~
   JANDIURL=https://wh.jandi.com/connect-api/webhook/1738~~~~
   
+```
+이후 files/setting.json에서 원하는 제품명과 가격을 입력해줍니다.<br>
+제품명의 기준은 네이버 쇼핑 검색결과를 기준으로 검색합니다.<br>
+```
+  #files/setting.json
+  "itemanme" : "제품명",
+  "target" : "원하는 제품 가격"
 ```
 
 ```
