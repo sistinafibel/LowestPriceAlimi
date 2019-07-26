@@ -18,8 +18,6 @@ if (!process.env.CLIENT_ID ||
 }
 
 
-
-
 /*** 환경 설정 ***/
 let client_id = process.env.CLIENT_ID; //naver Client_id Key
 let client_secret = process.env.CLIENT_SECRET; //naver Client_secrey Key
