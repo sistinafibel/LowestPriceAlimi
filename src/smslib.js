@@ -42,6 +42,9 @@ message.messageSent = function(title , target , defaultPay , type){
     }
     request.post(options2, function(error, response, body) {
         returnCk = 0; // 실행완료시에 동작하도록 구성 완료!
+
+        console.log(body);
+        
         if (!error && response.statusCode == 200) {
             console.log("알림톡이 실행되었습니다.");
         }else{
