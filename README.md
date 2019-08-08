@@ -48,6 +48,10 @@
   > npm start
  ```
 
+### 개발 예정
+- 다나와 파싱 데이터 
+- 슬랙 / SMS 알림 추가
+
 ### 후기
 <img src="https://user-images.githubusercontent.com/36251104/61592932-4779d180-ac14-11e9-95c7-a62f0d0fcc1e.jpg" width="300px"/>
 <img src="https://user-images.githubusercontent.com/36251104/61592911-08e41700-ac14-11e9-8f76-b58c1da3abde.jpg" width="300px"/>
