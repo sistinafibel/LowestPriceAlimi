@@ -3,10 +3,10 @@ let request = require('request');
 require('dotenv').config();
 
 
-var nateonURL = process.env.NATEONURL; //네이트온 Webhook
-var jandiURL = process.env.JANDIURL; //잔디 Webhook
+const nateonURL = process.env.NATEONURL; //네이트온 Webhook
+const jandiURL = process.env.JANDIURL; //잔디 Webhook
 
-var message = {};
+let message = {};
 
 //쉼표 추가
 function numberWithCommas (x) {
@@ -14,10 +14,11 @@ function numberWithCommas (x) {
 }
 
 message.messageSent = function(title , target , defaultPay , type){
-    var newTitle = title.replace(/(<([^>]+)>)/ig,""); //태그제거
+    let newTitle = title.replace(/(<([^>]+)>)/ig,""); //태그제거
+    let options2 = {};
 
     if(type == "nateon"){
-        var options2 = {
+        options2 = {
             url: nateonURL, //네이트온 후킹으로 받을 예정으로 이렇게 처리.
             headers:{
                 'Content-Type' : 'application/x-www-form-urlencoded'
@@ -27,7 +28,7 @@ message.messageSent = function(title , target , defaultPay , type){
             }
         };
     }else if (type == "jandi"){
-        var options2 = {
+        options2 = {
             url: jandiURL, //잔디 후킹으로 받을 예정으로 이렇게 처리.
             headers:{
                 'Content-Type' : 'application/json',

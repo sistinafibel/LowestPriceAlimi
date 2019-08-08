@@ -2,7 +2,7 @@ let urlencode = require('urlencode');
 let request = require('request');
 let fs = require('fs');
 let cheerio = require('cheerio');
-var smslib = require('./smslib');
+let smslib = require('./smslib');
 
 require('dotenv').config();
 
@@ -19,20 +19,20 @@ if (!process.env.CLIENT_ID ||
 
 
 /*** 환경 설정 ***/
-let client_id = process.env.CLIENT_ID; //naver Client_id Key
-let client_secret = process.env.CLIENT_SECRET; //naver Client_secrey Key
-let timeSet = process.env.TIMESET; //반복 시간
+const client_id = process.env.CLIENT_ID; //naver Client_id Key
+const client_secret = process.env.CLIENT_SECRET; //naver Client_secrey Key
+const timeSet = process.env.TIMESET; //반복 시간
 
 
 jsonobj = fileRefresh();
-var returnCk = 0;
+let returnCk = 0;
 
 playAlert = setInterval(function() {
     console.log("실행확인");
     //getItem (제품명 , 목표금액)
     if(returnCk == 0){
         returnCk = 1;
-        for(var i=0; i < jsonobj.item.length; i++){
+        for(let i=0; i < jsonobj.item.length; i++){
             getItem(jsonobj.item[i].itemname , jsonobj.item[i].target);
             
             /*if(jsonobj.item[i].itemname === "라이젠3900x"){
